@@ -22,9 +22,9 @@ A minimal GIT server.
 
 ```bash
 
-cp ~/.ssh/id_rsa.pub ~/git-server-data
+    cp ~/.ssh/id_rsa.pub ~/git-server-data
 
-echo `cat ~/.ssh/id_rsa.pub` >> ~/git-server-data/.ssh/authorized_keys
+    echo `cat ~/.ssh/id_rsa.pub` >> ~/git-server-data/.ssh/authorized_keys
 
 ```
 
